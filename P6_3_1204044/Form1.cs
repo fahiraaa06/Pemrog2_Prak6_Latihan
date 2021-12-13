@@ -97,5 +97,10 @@ namespace P6_3_1204044
                 }
             }
         }
+
+        private void cbProdi_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            this.prodi = cbProdi.SelectedValue.ToString();
+        }
     }
 }

@@ -139,6 +139,7 @@
             this.cbProdi.Name = "cbProdi";
             this.cbProdi.Size = new System.Drawing.Size(121, 21);
             this.cbProdi.TabIndex = 8;
+            this.cbProdi.SelectedIndexChanged += new System.EventHandler(this.cbProdi_SelectedIndexChanged);
             // 
             // button1
             // 
